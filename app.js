@@ -21,7 +21,6 @@ document.writeln("<br>");
 
 document.writeln(`The remainder of ${num1} divided by ${num2} is Result: ${remainder}`)
 
-// // program to generate a multiplication table
 
 var userName= prompt("Enter a number for multiplication table:") ||6;
 
