@@ -1,15 +1,32 @@
-//   kamil case
-var myVariable;
-var _underscoreVariable;
-var camelCaseVariable;
-var $dollarSignVariable;
-var variable123;
+const num1 = parseInt(prompt('Enter the first number: '));
+const num2 = parseInt(prompt('Enter the second number: '));
 
-    //    multipication tables
-var userNumber = prompt("Enter a number for multiplication table:") || 6 ;
+const sum = num1 + num2;
+const diff = num1 - num2;
+const product = num1 * num2;
+const quotient = num1 / num2;
+const remainder = num1 % num2;
 
+document.writeln(`The sum of ${num1} and ${num2} is Result: ${sum}`);
+document.writeln("<br>"); 
 
-for (var i = 1; i <= 10; i++) {
-    document.write(userNumber + " * " + i + " = " + userNumber * i + "<br>");
+document.writeln(`The difference of ${num1} and ${num2} is Result: ${diff}`);
+document.writeln("<br>");
+
+document.writeln(`The product of ${num1} and ${num2} is Result: ${product}`);
+document.writeln("<br>"); 
+
+document.writeln(`The quotient of ${num1} and ${num2} is Result: ${quotient}`);
+document.writeln("<br>"); 
+
+document.writeln(`The remainder of ${num1} divided by ${num2} is Result: ${remainder}`)
+
+// // program to generate a multiplication table
+
+var userName= prompt("Enter a number for multiplication table:") ||6;
+
+for (var i =1; i <= 10; i++){
+    document.write(userName +"*" + i + "=" + userName * i + "<br>")
 }
+
 
